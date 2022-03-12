@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Taylor Swift Web">
+    <meta name="keywords" content="immaculata, ics2o">
+    <meta name="author" content="Anita Kay">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+		<!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./fav_index/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./fav_index/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./fav_index/favicon-16x16.png">
+    <link rel="manifest" href="./fav_index/site.webmanifest">
+		<!-- Google's MDL -->
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.blue_grey-deep_purple.min.css"/> 
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <title>Taylor Swift Web - Home</title>
+  </head>
+  <body>
+    <!-- Always shows a header, even in smaller screens. -->
+      <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      <header class="mdl-layout__header">
+      <div class="mdl-layout__header-row">
+    <!-- Title -->
+      <span class="mdl-layout-title">Taylor Swift Web</span>
+    <!-- Add spacer, to align navigation to the right -->
+      <div class="mdl-layout-spacer"></div>
+    <!-- Navigation. We hide it in small screens. -->
+      <nav class="mdl-navigation mdl-layout--large-screen-only">
+      <a class="mdl-navigation__link" href="https://assign-01-html-css-js.anitakay1.repl.co/">Home</a>
+      <a class="mdl-navigation__link" href="https://assign-01-html-css-js.anitakay1.repl.co/activities.html">Activities</a>
+      <a class="mdl-navigation__link" href="https://assign-01-html-css-js.anitakay1.repl.co/folklore.html">Folklore Deep Dive</a>
+      </nav>
+      </div>
+      </header>
+      <main class="mdl-layout__content">
+      <div class="page-content"><!-- Your content goes here --></div>
+      </main>
+      </div>
+      <br></br>
+      <br></br>
+      <center><h1 style="font-family:georgia"><strong>Taylor Swift Web</strong></h1></center>
+    <!--JS alert -->
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <script>
+      function clickMe() {
+        alert("A swift tailor!")
+      }
+    </script>
+		<!-- Colored raised button -->
+		<center><button onclick="clickMe()" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
+		  What kind of dressmaker does Taylor Swift use in a hurry?
+		</button></center>
+    <br></br>
+      <center><img src="./images/tayloral.jpg" alt="Album" class="center"></center>
+      <br></br>
+    <!-- Introduction to the page-->
+      <center><h5 style="font-family:georgia">Welcome to Taylor Swift Web, the web page for everything Taylor Swift. This page will take a deep dive into Taylor Swift's <i>Folklore</i> album (my personal favourite), as well as offering access to some fun Taylor themed activities. I hope you like this web page and enjoy your time on Taylor Swift Web!</h5></center>
+    <!-- Biography -->
+      <center><h3 style="font-family:georgia">Who is Taylor Swift?</h3></center>
+      <center><img src="./images/taylor.gif"></center>
+      <center><h5 style="font-family:georgia">Taylor Swift, (born December 13, 1989), is an American singer-songwriter. Her discography spans across a variety of genres, specifically pop and country, and her songs are world renowned. Taylor released her self-titled first album in 2006, debuting number 19 on the Billboard Hot 100. Since then, Taylor has released 8 more albums, as well as two rerecordings of her previous albums, and her success has reached unmatched levels. Her albums have consistently topped the charts, and she has collected 11 Grammys throughout her career. Taylor's lyrics and music continues to inspire and gain critical praise to this day, and her success only grows with each new album and rerecording she releases.</h5></center>
+      <center><img src="./images/bw.jpg" 
+     width="600" 
+     height="400" /></center>
+    <!-- Radio button -->
+      <center><h3 style="font-family:georgia">Do you  listen to Taylor Swift?</h3></center>
+      <center><label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-1">
+        <input type="radio" id="option-1" class="mdl-radio__button" name="options" value="1" checked>
+        <span class="mdl-radio__label">Yes</span>
+      </label>
+      <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-2">
+      <input type="radio" id="option-2" class="mdl-radio__button" name="options" value="2">
+      <span class="mdl-radio__label">No</span>
+      </label></center>
+      <center><h3 style="font-family:georgia"> If so, what is your favourite Taylor Swift album?</h3></center>
+      <!-- Data table -->
+      <center><table class="mdl-data-table mdl-js-data-table mdl-data-table--selectable mdl-shadow--2dp">
+        <thead>
+          <tr>
+            <th class="mdl-data-table__cell--non-numeric">Album</th>
+            <th>Release date</th>
+            <th>Number of songs</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td class="mdl-data-table__cell--non-numeric">Debut</td>
+            <td>2006</td>
+            <td>15</td>
+          </tr>
+          <tr>
+            <td class="mdl-data-table__cell--non-numeric">Fearless (Taylor's version)</td>
+            <td>2021</td>
+            <td>26</td>
+          </tr>
+          <tr>
+            <td class="mdl-data-table__cell--non-numeric">Speak Now</td>
+            <td>2010</td>
+            <td>20</td>
+          </tr>
+          <tr>
+            <td class="mdl-data-table__cell--non-numeric">Red (Taylor's version)</td>
+            <td>2021</td>
+            <td>30</td>
+          </tr>
+          <tr>
+              <td class="mdl-data-table__cell--non-numeric">1989</td>
+              <td>2014</td>
+              <td>19</td>
+          </tr>
+          <tr>
+              <td class="mdl-data-table__cell--non-numeric">Reputation</td>
+              <td>2017</td>
+              <td>15</td>
+          </tr>
+          <tr>
+              <td class="mdl-data-table__cell--non-numeric">Lover</td>
+              <td>2019</td>
+              <td>18</td>
+          </tr>
+          <tr>
+              <td class="mdl-data-table__cell--non-numeric">Folklore</td>
+              <td>2020</td>
+              <td>17</td>
+          </tr>
+          <tr>
+              <td class="mdl-data-table__cell--non-numeric">Evermore</td>
+              <td>2020</td>
+              <td>17</td>
+          </tr>
+        </tbody>
+      </table></center>
+    <br></br>
+    <center><img src="./images/rep.png"></center>
+    <br></br>
+  </body> 
+</html>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Taylor Swift Web">
+    <meta name="keywords" content="immaculata, ics2o">
+    <meta name="author" content="Anita Kay">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style2.css">
+		<!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./fav_index/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./fav_index/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./fav_index/favicon-16x16.png">
+    <link rel="manifest" href="./fav_index/site.webmanifest">
+		<!-- Google's MDL -->
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.blue_grey-deep_purple.min.css"/> 
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <title>Taylor Swift Web - Activities</title>
+  </head>
+  <body>
+    <!-- Always shows a header, even in smaller screens. -->
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+    <header class="mdl-layout__header">
+    <div class="mdl-layout__header-row">
+      <!-- Title -->
+      <span class="mdl-layout-title">Taylor Swift Web</span>
+      <!-- Add spacer, to align navigation to the right -->
+      <div class="mdl-layout-spacer"></div>
+      <!-- Navigation. We hide it in small screens. -->
+      <nav class="mdl-navigation mdl-layout--large-screen-only">
+        <a class="mdl-navigation__link" href="https://assign-01-html-css-js.anitakay1.repl.co/">Home</a>
+        <a class="mdl-navigation__link" href="https://assign-01-html-css-js.anitakay1.repl.co/activities.html">Activities</a>
+        <a class="mdl-navigation__link" href="https://assign-01-html-css-js.anitakay1.repl.co/folklore.html">Folklore Deep Dive</a>
+      </nav>
+      </div>
+      </header>
+      <main class="mdl-layout__content">
+      <div class="page-content"><!-- Your content goes here --></div>
+      </main>
+      </div>
+      <br></br>
+      <br></br>
+      <center><h1 style="font-family:georgia"><strong>Activities</strong></h1></center>
+      <!--JS alert -->
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <script>
+      function btnClick() {
+        alert("She has bad blood!")
+      }
+    </script>
+		<!-- Colored raised button -->
+		<center><button onclick="btnClick()" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
+		  Why is Taylor Swift safe from vampires?
+		</button></center>
+    <br></br>
+      <!-- Description of activities -->
+      <center><h3 style="font-family:georgia">Taylordle</h3></center>
+      <center><img src="./images/taylordle.jpg" 
+     width="400" 
+     height="500" /></center>
+      <center><h5 style="font-family:georgia"> <a href="https://www.taylordle.com"> Taylordle</a> is an adaptaion of the internet-viral game Wordle. Like Wordle, the object of the game is guess a five letter word in only six guesses. In Taylordle, however, there is a twist: this word must have something to do with Taylor Swift. This game was created by the Holy Swift podcast, which you can listen to by clicking <a href="https://open.spotify.com/show/7v7Uok5B0Pat4OtRwHxWbC"> here. </a></h5></center>
+      <center><h3 style="font-family:georgia">Taylor Swift 2048</h3></center>
+      <center><img src="./images/Capture.PNG" 
+     width="500" 
+     height="600" /></center>
+      <center><h5 style="font-family:georgia"> <a href="https://all2048.com/taylor-swift"> Taylor Swift 2048</a> is another adaptation of a beloved game on the internet: 2048. To play, move the arrow keys to combine tiles on the grid to create bigger numbers (or in this case, new Taylor Swifts). To win, you must reach the highest possible number (2048), or unlock all of the Taylors. </h5></center>
+      <center><h5 style="font-family:georgia"> Write your high score here: </h5></center>
+      <!-- Simple Textfield -->
+      <center><form action="#">
+      <div class="mdl-textfield mdl-js-textfield">
+        <input class="mdl-textfield__input" type="text" id="sample1">
+        <label class="mdl-textfield__label" for="sample1">Text...</label>
+      </div>
+      </form></center>
+      <center><h3 style="font-family:georgia"> Taylor Swift Crossword</h3></center>
+       <center><img src="./images/Capture2.PNG" 
+     width="600" 
+     height="400" /></center>
+      <center><h5 style="font-family:georgia"> <a href="https://mycrosswordmaker.com/264230/Taylor-Swift-Songs">This Taylor Swift activity</a> is a new take on a classic word puzzle: the crossword. To solve this crossword, identify the Taylor Swift song that matches with the lyrics in the hint.</h5></center>
+    <br></br>
+      <center><h3 style="font-family:georgia">Use this slider to rate how much fun these activities are:</h3></center>
+      <!-- Default Slider -->
+      <input class="mdl-slider mdl-js-slider" type="range"
+      min="0" max="100" value="0" tabindex="0">
+    <br></br>
+    <center><h3 style="font-family:georgia">Click on the activity you would like to use for easy access:</h3></center>
+    <!-- Simple list -->
+    <style>
+    .demo-list-item {
+    width: 300px;
+  }
+    </style>
+
+    <ul class="demo-list-item mdl-list">
+      <li class="mdl-list__item">
+        <span class="mdl-list__item-primary-content">
+          <a href="https://www.taylordle.com">Taylordle</a>
+        </span>
+      </li>
+      <li class="mdl-list__item">
+        <span class="mdl-list__item-primary-content">
+          <a href="https://all2048.com/taylor-swift">Taylor Swift 2048</a>
+        </span>
+      </li>
+      <li class="mdl-list__item">
+        <span class="mdl-list__item-primary-content">
+          <a href="https://mycrosswordmaker.com/264230/Taylor-Swift-Songs">Taylor Swift Crossword</a>
+        </span>
+      </li>
+    </ul>
+  </body>
+</html>

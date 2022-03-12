@@ -1,0 +1,24 @@
+/* Created by: Anita Kay
+* Created on: Mar 2022
+* This CSS file defines the style for folklore.html
+* ICS20-Assign-01-HTML-CSS-JS
+*/
+
+body {
+  background-color: #bababa;
+}
+
+h1 {
+  background-color: #7f7f7f;
+  color: #444444;
+  padding: 40px;
+  width: 80%;
+  margin-left: 10%;
+}
+h2, h3, h4, h5, h6 {
+  background-color: #7f7f7f;
+  color: #444444;
+  padding: 40px;
+  width: 80%;
+  margin-left: 10%;
+}
